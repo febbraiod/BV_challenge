@@ -1,0 +1,92 @@
+body {
+  min-height: 4000px;
+}
+
+#background_temp {
+  width: 100%;
+  min-height: 100%;
+}
+
+.navbar {
+  width: 83%; 
+  margin-left: 8.3%; 
+  margin-right: 8.3%; 
+  position: absolute; 
+  top: 0px; 
+  z-index: 9998;
+  background: transparent;
+  border: none;
+  padding-top: .4%;
+}
+
+#my_brand {
+  font-size: 1.6em;
+  color: white;
+  padding-left: 2.5%;
+}
+
+#my_links{
+  margin-right: 1%;
+  margin-left: 2%;
+}
+
+#my_links li a{
+  font-size: 1.4em;
+  color: white;
+  margin-top: 0;
+  padding: 15px 17px;
+}
+
+#office {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+#office img{
+  width: 100%;
+  margin-bottom: -20%;
+}
+
+#office_overlay {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  background-color: #5c1bb7;
+  opacity: .5;
+}
+
+#office_overlay img{
+  width: 100%;
+  margin-bottom: -20%;
+  visibility:hidden;
+}
+
+#welcome {
+  color: white;
+  text-align: center;
+  margin-top: 25%;
+}
+
+#welcome h1{
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 5em;
+  letter-spacing: 1px;
+}
+
+#welcome p{
+  letter-spacing: 1px;
+}
+
+.btn-primary{
+  background-color: #5c1bb7;
+  border-color: #5c1bb7;
+  padding: 10px 30px;
+  font-size: 1.75em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  -webkit-box-shadow: 0px 4px 0px #4a1c8e;
+  -moz-box-shadow:    0px 4px 0px #4a1c8e;
+  box-shadow:         0px 4px 0px #4a1c8e;
+}
