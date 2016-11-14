@@ -2,6 +2,18 @@ body {
   min-height: 4000px;
 }
 
+h1 {
+  color: white;
+  font-size: 5em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: 4.25em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
 #background_temp {
   width: 100%;
   min-height: 100%;
@@ -46,7 +58,7 @@ body {
 
 #office img{
   width: 100%;
-  margin-bottom: -20%;
+  margin-bottom: -19%;
 }
 
 #office_overlay {
@@ -60,24 +72,22 @@ body {
 
 #office_overlay img{
   width: 100%;
-  margin-bottom: -20%;
+  margin-bottom: -19%;
   visibility:hidden;
 }
 
 #welcome {
-  color: white;
   text-align: center;
   margin-top: 25%;
 }
 
 #welcome h1{
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 5em;
   letter-spacing: 1px;
 }
 
 #welcome p{
   letter-spacing: 1px;
+  color: white;
 }
 
 .btn-primary{
@@ -89,4 +99,35 @@ body {
   -webkit-box-shadow: 0px 4px 0px #4a1c8e;
   -moz-box-shadow:    0px 4px 0px #4a1c8e;
   box-shadow:         0px 4px 0px #4a1c8e;
+}
+
+#layers_img {
+  max-width: 113%;
+  margin-top: 7%;
+  padding-right: 10px;
+}
+
+.secondary_text{
+  color: white;
+  font-size: 1.55em;
+  line-height: 145%;
+  padding-right: 5%;
+  margin-bottom: 15px;
+}
+
+.secondary_text_wrapper {
+  padding-left: 4%;
+}
+
+.secondary_text_wrapper h2 {
+  margin: 3px 0px 15px 2px;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border: solid 1px white;
+  background-color: transparent;
+  padding: 12px 22px;
+  font-size: 1.8em;
+  margin-top: 10px;
 }
