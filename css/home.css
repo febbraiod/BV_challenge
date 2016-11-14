@@ -14,6 +14,10 @@ h2 {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
+h3 {
+  color: white;
+}
+
 #background_temp {
   width: 100%;
   min-height: 100%;
@@ -101,6 +105,11 @@ h2 {
   box-shadow:         0px 4px 0px #4a1c8e;
 }
 
+.second_section {
+  background-color: #5c1bb7; 
+  padding: 22% 2% 5% 2%;
+}
+
 #layers_img {
   max-width: 113%;
   margin-top: 7%;
@@ -131,3 +140,40 @@ h2 {
   font-size: 1.8em;
   margin-top: 10px;
 }
+
+.section_text_wrapper {
+  margin-top: 20%;
+}
+
+.tertiary_text{
+  color: grey;
+  font-size: 1.75em;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  line-height: 160%;
+  margin-top: 3%;
+  padding: 0 10px 0 10px;
+}
+
+.with_icons .fa {
+  color: #5c1bb7;
+  font-size: 3em;
+  display: block;
+}
+
+.quad_text {
+  color: grey;
+  font-size: 1.2em;
+  line-height: 160%;
+  margin-top: 3%;
+  padding: 0 10px 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
