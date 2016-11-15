@@ -10,9 +10,11 @@ function checkWidth() {
         if (windowsize > 768 && $('.second_section').children().first().is('h2')) {
             morphSecondSectionSM();
             structureContactSM();
+            linksRight();
         } else if (windowsize < 768 && $('.secondary_text_wrapper').children().first().is('h2')) {
             morphSecondSectionXS();
             structureContactXS();
+            linksLeft();
         }
         
     }
@@ -40,4 +42,12 @@ function checkWidth() {
             $('#form_container').removeClass('text-center');
             $('textarea').attr('rows', 5);
         }
+    }
+
+    function linksRight(){
+        $('#my_links').addClass('pull-right');
+    }
+
+    function linksLeft(){
+        $('#my_links').removeClass('pull-right');
     }
