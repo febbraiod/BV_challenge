@@ -4,14 +4,14 @@ body {
 
 h1 {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 5.2em;
+  font-size: 5em;
   color: white;
   margin-bottom: 15px;
 }
 
 h2 {
   color: white;
-  font-size: 4.25em;
+  font-size: 4em;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
@@ -20,13 +20,13 @@ h3 {
 }
 
 h4 {
-  font-size: 2.3em;
+  font-size: 2em;
   font-weight: 350;
   color: #5c1bb7;
 }
 
 h5 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #760076;
 }
 
@@ -92,7 +92,7 @@ input {
 
 #welcome {
   text-align: center;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 #welcome h1{
@@ -102,7 +102,7 @@ input {
 #welcome p{
   letter-spacing: 1px;
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .btn-primary{
@@ -129,8 +129,8 @@ input {
 
 .secondary_text{
   color: white;
-  font-size: 1.55em;
-  line-height: 145%;
+  font-size: 1.4em;
+  line-height: 140%;
   padding-right: 5%;
   margin-bottom: 15px;
 }
@@ -147,8 +147,8 @@ input {
   color: white;
   border: solid 1px white;
   background-color: transparent;
-  padding: 12px 22px;
-  font-size: 1.8em;
+  padding: 12px 20px;
+  font-size: 1.75em;
   margin-top: 10px;
 }
 
@@ -162,9 +162,9 @@ input {
 
 .tertiary_text{
   color: grey;
-  font-size: 1.75em;
+  font-size: 1.7em;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  line-height: 160%;
+  line-height: 150%;
   margin-top: 3%;
   padding: 0 10px 150px 10px;
 }
@@ -208,7 +208,7 @@ input {
 }
 
 .teammember_text {
-  font-size: 1.40em;
+  font-size: 1.20em;
   line-height: 160%;
   font-weight: 500;
 }
@@ -247,7 +247,7 @@ textarea {
 }
 
 .contact_info {
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: grey;
 }
 
@@ -263,7 +263,7 @@ textarea {
 }
 
 .foothead{
-  font-size: 1.95em;
+  font-size: 1.7em;
 }
 
 li a {
@@ -287,4 +287,3 @@ li a {
 .add_50px_bottom {
   padding-bottom: 50px;
 }
-
