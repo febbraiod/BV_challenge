@@ -27,23 +27,232 @@
   }
 
   #office img{
-    margin-bottom: -5%;
+    margin-bottom: 0%;
   }
   
   #office_overlay img{
-    margin-bottom: -5%;
+    margin-bottom: 0%;
   }
 
   #welcome {
     margin-top: 25%;
   }
 
-  .fill_container {
+  .image_fit, .icon_fit {
     width: 80%;
   }
 
   .fa {
     margin-bottom: 80px;
   }
+
+  #team_push {
+    margin-right: 0px;
+  }
   
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0px;
+    background: #5c1bb7;
+  }
+
+  #welcome {
+/*    margin-top: 10%;*/
+  }
+
+  #office {
+    height: 100%;
+  }
+
+  #office img {
+    width: 150%;
+  }
+
+  #office_overlay img{
+    width: 160%
+  }
+
+  #welcome p{
+    font-size: 1em;
+  }
+
+  .btn-primary{
+    padding: 7px 30px;
+    font-size: 1.3em;
+
+  }
+
+  .second_section {
+    padding-top: 60%;
+  }
+
+  .secondary_text {
+    font-size: 1em;
+    line-height: 140%;
+  }
+
+  .secondary_text_wrapper {
+    padding-left: initial;
+    padding-top: 20px;
+  }
+
+  .tertiary_text {
+    font-size: 1em;
+    padding-bottom: 75px;
+  }
+
+  .with_icons .fa {  
+    font-size: 2.25em;
+    margin-bottom: 10px;
+  }
+
+
+
+  .quad_text {
+    font-size: 1em;
+    padding-bottom: 75px;
+    margin: 0 40px 0 40px;
+  }
+
+  .add_50px_bottom{
+    padding-bottom: 0px;
+  }
+
+  .add_100px_bottom{
+    padding-bottom: 0px;
+  }
+
+  .team_text {
+    font-size: 1em;
+    padding-bottom: 50px;
+  }
+
+  #team_push {
+    margin-right: 0;
+  }
+
+  .image_fit {
+    width: 50%;
+  }
+
+  h5, .teammember_text {
+    font-size: 1.1em;
+  }
+
+  .with_small_icons .fa {
+    font-size: 1.3em;
+    margin-bottom: 70px;
+    margin-left: 25px;
+  }
+
+  .icon_fit {
+    width: 70%;
+  }
+
+  #form_container {
+    padding: 0;
+  }
+
+  #contact_form {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  input {
+    margin-bottom: 15px;
+  }
+
+  .form-control, textarea {
+    font-size: 1em;
+  }
+
+  .btn-outline-secondary {
+    padding: 10px 20px;
+    font-size: 1.25em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .contact_head {
+    padding-top: 10px;
+  }
+
+  .contact_info {
+    font-size: 1.1em;
+  }
+
+  .foothead {
+    font-size: 1.1em;
+  }
+
+  .footer_row {
+    padding-top: 30px;
+  }
+
+  ul {
+    margin-bottom: 10px;
+  }
+
+  li a {
+    font-size: 1.1em;
+  }
+
+  hr {
+    margin-bottom: 0px;
+  }
+
+  #copyright {
+    margin-top: 15px;
+    font-size: 1em;
+  }
+
+
+}
+
+
+@media only screen and (max-width: 580px) {
+  .second_section {
+    padding-top: 50%;
+  }
+
+  .with_small_icons .fa {
+    margin-left: 10px;
+  }
+
+  h3 {
+    font-size: 1.25em;
+  }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  .second_section {
+    padding-top: 40%;
+  }
+
+  .with_small_icons .fa {
+    margin-left: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 415px) {
+  .second_section {
+    padding-top: 30%;
+  }
+
 }

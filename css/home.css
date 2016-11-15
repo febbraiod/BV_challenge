@@ -207,6 +207,10 @@ input {
    padding: 0px 5px !important;
 }
 
+#team_push {
+  margin-right: 90px;
+}
+
 .teammember_text {
   font-size: 1.20em;
   line-height: 160%;
@@ -252,7 +256,7 @@ textarea {
 }
 
 #contact_icon {
-  font-size: 2em;
+  font-size: 1.75em;
   color: grey;
   margin-right: 5px;
 }
@@ -271,8 +275,14 @@ li a {
   color: grey;
 }
 
-.fill_container {
+.image_fit, .icon_fit {
   width: 100%;
+}
+
+.copyright_row {
+  background-color: black;
+  padding-left: 15px;  
+  padding-right: 15px;
 }
 
 #copyright {
