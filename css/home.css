@@ -3,9 +3,10 @@ body {
 }
 
 h1 {
-  color: white;
-  font-size: 5em;
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  font-size: 5.2em;
+  color: white;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -18,9 +19,19 @@ h3 {
   color: white;
 }
 
-#background_temp {
-  width: 100%;
-  min-height: 100%;
+h4 {
+  font-size: 2.3em;
+  font-weight: 350;
+  color: #5c1bb7;
+}
+
+h5 {
+  font-size: 1.3em;
+  color: #760076;
+}
+
+input {
+  margin-bottom: 25px;
 }
 
 .navbar {
@@ -57,7 +68,6 @@ h3 {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  z-index: 1;
 }
 
 #office img{
@@ -69,7 +79,7 @@ h3 {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   background-color: #5c1bb7;
   opacity: .5;
 }
@@ -92,6 +102,7 @@ h3 {
 #welcome p{
   letter-spacing: 1px;
   color: white;
+  margin-bottom: 25px;
 }
 
 .btn-primary{
@@ -107,7 +118,7 @@ h3 {
 
 .second_section {
   background-color: #5c1bb7; 
-  padding: 22% 2% 5% 2%;
+  padding: 23% 2% 5% 2%;
 }
 
 #layers_img {
@@ -141,6 +152,10 @@ h3 {
   margin-top: 10px;
 }
 
+.dark_background {
+  background-color: #222222;
+}
+
 .section_text_wrapper {
   margin-top: 20%;
 }
@@ -151,7 +166,7 @@ h3 {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   line-height: 160%;
   margin-top: 3%;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 150px 10px;
 }
 
 .with_icons .fa {
@@ -163,17 +178,113 @@ h3 {
 .quad_text {
   color: grey;
   font-size: 1.2em;
-  line-height: 160%;
+  line-height: 150%;
   margin-top: 3%;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 100px 10px;
 }
 
+#team_head {
+  color: black;
+}
 
+.team_text{
+  font-size: 1.75em;
+  color: #444;
+  font-weight: 200;
+  line-height: 160%;
+  margin-top: 3%;
+  padding: 0 10px 150px 10px;
+}
 
+.v_align {
+  float:none;
+  display:inline-block;
+  vertical-align:middle;
+  margin-right:-4px;
+}
 
+.low-padding {
+   padding: 0px 5px !important;
+}
 
+.teammember_text {
+  font-size: 1.40em;
+  line-height: 160%;
+  font-weight: 500;
+}
 
+.with_small_icons .fa {
+  color: #5c1bb7;
+  font-size: 2em;
+  display: block;
+}
 
+.clients_row{
+  background-color: #5c1bb7;
+  padding: 35px 0px 25px 0px;
+}
 
+.form-control {
+  font-size: 1.3em;
+}
 
+#contact_form {
+  width: 95%
+}
+
+textarea {
+  font-size: 1.3em;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.contact_text_wrapper {
+  margin-top: 10%;
+}
+
+.contact_head {
+  margin-top: 0px;
+}
+
+.contact_info {
+  font-size: 1.5em;
+  color: grey;
+}
+
+#contact_icon {
+  font-size: 2em;
+  color: grey;
+  margin-right: 5px;
+}
+
+.footer_row {
+  background-color: black; 
+  padding-top: 50px
+}
+
+.foothead{
+  font-size: 1.95em;
+}
+
+li a {
+  font-size: 1.5em;
+  color: grey;
+}
+
+.fill_container {
+  width: 100%;
+}
+
+#copyright {
+  color: grey; 
+  font-size: 1.5em;
+}
+
+.add_100px_bottom {
+  padding-bottom: 100px;
+}
+
+.add_50px_bottom {
+  padding-bottom: 50px;
+}
 
