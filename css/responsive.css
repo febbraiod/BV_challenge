@@ -1,11 +1,49 @@
 
 /*for tablet*/
-@media only screen and (max-width: 992px) {
-  
+@media only screen and (max-width: 1030px) {
+
   .navbar {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #office img{
+    margin-bottom: -15%;
+  }
+
+  #office_overlay img{
+    margin-bottom: -15%;
+  }
+  
+}
+
+@media only screen and (max-width: 992px) {
+
+  .navbar {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #office img{
+    margin-bottom: -5%;
+  }
+  
+  #office_overlay img{
+    margin-bottom: -5%;
+  }
+
+  #welcome {
+    margin-top: 25%;
+  }
+
+  .fill_container {
+    width: 80%;
+  }
+
+  .fa {
+    margin-bottom: 80px;
   }
   
 }
