@@ -1,6 +1,40 @@
 
 /*for tablet*/
+
+@media only screen and (max-width: 1360px) {
+
+  .high-padding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+}
+
+@media only screen and (max-width: 1170px) {
+
+  .high-padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+}
+
+@media only screen and (max-width: 1080px) {
+
+  .high-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
+
+
 @media only screen and (max-width: 1030px) {
+
+  .high-padding {
+    padding-left: initial;
+    padding-right: initial;
+  }
 
   .navbar {
     width: 100%;
@@ -38,16 +72,20 @@
     margin-top: 25%;
   }
 
-  .image_fit, .icon_fit {
-    width: 80%;
+  .image_fit {
+    width: 50%;
+  }
+
+  .icon_fit {
+    width: 80%
   }
 
   .fa {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 
-  #team_push {
-    margin-right: 0px;
+  .contact_info {
+    font-size: 1.2em;
   }
   
 }
@@ -120,8 +158,6 @@
     margin-bottom: 10px;
   }
 
-
-
   .quad_text {
     font-size: 1em;
     padding-bottom: 75px;
@@ -141,12 +177,8 @@
     padding-bottom: 50px;
   }
 
-  #team_push {
-    margin-right: 0;
-  }
-
   .image_fit {
-    width: 50%;
+    width: 45%;
   }
 
   h5, .teammember_text {
@@ -155,7 +187,6 @@
 
   .with_small_icons .fa {
     font-size: 1.3em;
-    margin-bottom: 70px;
     margin-left: 25px;
   }
 

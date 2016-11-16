@@ -21,8 +21,9 @@ h3 {
 }
 
 h4 {
+  font-family: "Fira Sans", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
   font-size: 2em;
-  font-weight: 350;
+  font-weight: 300;
   color: #5c1bb7;
 }
 
@@ -33,6 +34,11 @@ h5 {
 
 input {
   margin-bottom: 25px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0892bf;
 }
 
 .navbar {
@@ -53,16 +59,26 @@ input {
   padding-left: 2.5%;
 }
 
-#my_links{
+#my_brand:hover {
+  font-style: italic;
+  color: #146293;
+}
+
+#nav_links{
   margin-right: 1%;
   margin-left: 2%;
 }
 
-#my_links li a{
+#nav_links li a{
   font-size: 1.4em;
   color: white;
   margin-top: 0;
   padding: 15px 17px;
+}
+
+#nav_links li a:hover {
+  text-decoration: none;
+  color: #146293;
 }
 
 #office {
@@ -94,10 +110,6 @@ input {
 #welcome {
   text-align: center;
   margin-top: 20%;
-}
-
-#welcome h1{
-  letter-spacing: 1px;
 }
 
 #welcome p{
@@ -184,10 +196,14 @@ input {
   display: block;
 }
 
+.sub_head {
+  font-size: 1.2em;
+}
+
 .quad_text {
   color: grey;
   font-family: "Fira Sans", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 300;
   font-style: normal;
   line-height: 150%;
@@ -221,8 +237,9 @@ input {
    padding: 0px 5px !important;
 }
 
-#team_push {
-  margin-right: 90px;
+.high-padding {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .teammember_text {
@@ -238,6 +255,7 @@ input {
   color: #5c1bb7;
   font-size: 2em;
   display: block;
+  margin-bottom: 70px;
 }
 
 .clients_row{
