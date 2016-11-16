@@ -1,6 +1,12 @@
 $(document).ready(function() {
     checkWidth();
     $(window).resize(checkWidth);
+
+    WebFont.load({
+    google: {
+      families: ['Fira Sans', 'Fira Sans:light']
+    }
+  });
 });
 
 
